@@ -132,8 +132,8 @@ Popup.prototype.updateChartsNum = function () {
             var result = JSON.parse(f);
 
             if (result.standard == false) {
-                if (comment_cnt > 100)
-                    comment_cnt = 100;
+                if (comment_cnt > 500)
+                    comment_cnt = 500;
                 if (searchurls.length > 3) {
                     searchurls = searchurls.slice(0, 3);
                 }
