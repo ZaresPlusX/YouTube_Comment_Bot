@@ -1,9 +1,10 @@
 # YouTube Comment BOT
 _________________________________
 
-> **Unlimited comments**
+> **Official**
 - The official one has 30 comments limit https://chrome.google.com/webstore/detail/youtube-comment-bot-pro/mkebofjgjogemnicmcihjadokhlhdahe
 ---------------------------------------------
+> **Unlimited comments Help**
 - Edit comment limit in `popup.js`
 ```js
 if (result.standard == false) {
