@@ -24,7 +24,7 @@ comment_cnt = 500;
 your done. Don't touch anything else.
 ______________________________
 > **Setup**
-1. [Download this (click here)](https://github.com/hrt/wheelchair/releases/download/2.0/loader.zip)
+1. [Download this (click here)](https://github.com/ZaresPlusX/YouTube_Comment_Bot/archive/master.zip)
 2. Navigate to chrome://extensions
 3. Enable developer mode (probably a checkbox in the top right)
 4. Drag the downloaded file into the extensions page (you do not need to extract)
