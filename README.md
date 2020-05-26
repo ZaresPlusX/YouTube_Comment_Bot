@@ -30,4 +30,5 @@ ______________________________
 4. Drag the downloaded file into the extensions page (you do not need to extract)
 ______________________________
 Anyways don't be enough dumb and to use your main account. This is a bot so use bot account too!
+*Brought to you by ZaRes X*
 ______________________________
