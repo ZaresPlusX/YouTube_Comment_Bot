@@ -1,0 +1,135 @@
+.ex-body {
+  margin: 5px;
+  padding: 0px;
+}
+
+html,body {
+  width: 386px;
+  height: 580px;
+  color: #111;
+  /*font-family: 'Rubik','Helvetica','Arial',sans-serif!important;*/
+  /*font-family: 'SourceHanSansSC-regular';*/
+  font-family: 'Rajdhani', sans-serif!important;
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #bdc3c7;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #bdc3c7;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #bdc3c7;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #bdc3c7;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #bdc3c7;
+}
+
+.btn {
+  cursor: pointer;
+}
+.top-label {
+  background: #fc0d1b;
+  color:white;
+  border-radius: 2px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.title {
+  padding-bottom: 1px;
+  margin-bottom: 8px;
+  margin-top:12px;
+  font-size: 14px;
+  margin-left: 29px;
+}
+.subtitle{
+  margin-bottom:2px;
+  margin-top:2px;
+  margin-left: 29px;
+  font-size: 12px;
+  color:  #6A6A6A;
+  font-weight: 100;
+  font-size: 12px;
+}
+.bottomtitle{
+  margin-top: -2px;
+  margin-left: 29px;
+  margin-bottom:2px;
+  font-size: 11px;
+  color: gray;
+  font-weight: 100;
+}
+.gfont{
+  font-size: 11px;
+  color: gray;
+  font-weight: 100;
+}
+.title::before{
+  content: ' '
+}
+.title > span {
+  /*border-bottom: 1px solid #bdc3c7;*/
+  padding-bottom: 3px;
+  padding-right: 6px;
+  color: #fc0d1b;
+}
+.ex-toolbar {
+  background: gray;
+}
+
+input {
+  border-radius: 2px;
+  /*width: 310px;*/
+}
+.ext-toolbar button{
+  padding: 5px;
+}
+
+.ex-btn {
+  background-color: #fc0d1b;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+  padding: 0px;
+  /*margin-right: 12px;*/
+  width: 310px;
+}
+.ex-btn:hover{
+  background-color: #c0392b;
+  /*color: #fc0d1b;*/
+  /*border-color: #c0392b;*/
+}
+
+.dis-ex-btn {
+  background-color: #ccc;
+  border: none;
+  border-radius: 2px;
+  /*cursor: pointer;*/
+  color: white;
+  padding: 0px;
+  /*margin-right: 12px;*/
+  width: 310px;
+  
+}
+
+textarea {
+  border: 1px solid #ecf0f1;
+  padding: 1px;
+  border-radius: 4px;
+  width: 310px;
+  height: 60px;
+  margin: 0px;
+}
+
+select {
+  border: 1px solid gray;
+}
