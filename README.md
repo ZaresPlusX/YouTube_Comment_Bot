@@ -29,3 +29,5 @@ ______________________________
 3. Enable developer mode (probably a checkbox in the top right)
 4. Drag the downloaded file into the extensions page (you do not need to extract)
 ______________________________
+Anyways don't be enough dumb and to use your main account. This is a bot so use bot account too!
+______________________________
