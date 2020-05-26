@@ -1,0 +1,30 @@
+{
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "js": ["js/jquery-3.4.0.min.js", "js/autocomment.js"],
+        "matches": ["https://www.youtube.com/watch*"]
+   }, {
+        "js": ["js/jquery-3.4.0.min.js", "js/queryScript.js"],
+        "matches": ["https://www.youtube.com/results?search_query*"]
+   }],
+    "description": "YouTube Comment Bot Pro allows you to automatically post mass comments on YouTube videos. HaCked by ZaRes X",
+    "icons": {
+        "128": "images/youtube_auto_comment_128x128.png",
+        "16": "images/youtube_auto_comment_16x16.png",
+        "32": "images/youtube_auto_comment_32x32.png",
+        "48": "images/youtube_auto_comment_32x32.png",
+        "64": "images/youtube_auto_comment_64x64.png"
+    },
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyvxnE2omBNH0Zq2CLCkp1P+iaQuDrMilAHvYdd+ipIjabZR2PEJRypN2MtTJ/Aqz6Um6t1MZJPHDVmlMguu/a3wbCUw4AfP4yyVXONITqA4cKmM5gR6FGovXat+U/tF6n+7dmiJVk5HMDMLCiKbOfgRyJ9IWX1kT+NfEDWvTQ0Z6KazQRv6JfMQaak66QQ3dsaKyrJuQOy/XUsFHN1iJsDLEJWdDUxd0xpMmxXtRPq/Fq2ZU6MMxu3lHV1DC7TorSAYE+e5fqCb89qXITucNG45s6rhd/Klnr1gEb9XoOsd9MdxJS2cy4zyaHAkCVku750uuE9Hzdr7pUDJfw0QG3QIDAQAB",
+    "manifest_version": 2,
+    "name": "YouTube Comment Bot Pro",
+    "permissions": ["activeTab", "tabs", "declarativeContent", "storage", "https://www.automarketr.com/*"],
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "1.2"
+}
